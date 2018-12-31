@@ -1,0 +1,32 @@
+﻿
+CREATE TABLE `admins` (
+  `a_name` varchar(20) NOT NULL,
+  `a_pwd` varchar(20) NOT NULL,
+  PRIMARY KEY (`a_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `cars` (
+  `carid` int(20) NOT NULL AUTO_INCREMENT,
+  `carowner` varchar(20) NOT NULL,
+  `carnumber` varchar(20) NOT NULL,
+  `cartype` varchar(20) NOT NULL,
+  `carcolor` varchar(20) NOT NULL,
+  `rentprice` varchar(20) NOT NULL,
+  `renttime` varchar(20) DEFAULT NULL,
+  `rentout` varchar(20) DEFAULT NULL,
+  `state` varchar(20) NOT NULL,
+  PRIMARY KEY (`carid`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `users` (
+  `u_name` varchar(20) NOT NULL,
+  `relname` varchar(20) NOT NULL,
+  `sex` varchar(20) NOT NULL,
+  `idcard` varchar(20) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `address` varchar(50) NOT NULL,
+  `pwd` varchar(20) NOT NULL,
+  PRIMARY KEY (`idcard`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+

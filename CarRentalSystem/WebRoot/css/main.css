@@ -1,0 +1,206 @@
+@charset "utf-8";
+body
+{ 
+	background-color: #F6F6F6;
+	font-size: 1.2em;
+    font-family:"Helvetica","宋体","黑体";
+    -webkit-font-smoothing: antialiased;
+    color: #333;	
+    margin:0 auto;
+}
+h1, h2, h3{
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #804000;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #400080;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 2.8em;
+}
+h3 {
+	font-size: 1.6em;
+}
+h4
+{
+	font-size:1.2em;	
+}
+p, ul, ol {
+	margin-top: 0;
+	line-height: 150%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	font-weight: bold;
+}
+input:focus {
+  border-color: #311c24
+}
+.button
+{
+	padding-top: 20px;/*顶部的内边距为20px*/ 
+	padding-bottom: 20px;/*底部的内边距为20px*/ 
+	text-align: center;/*子内容居中*/ 
+
+}
+.button input[type="submit"]
+{ 	
+	background-color: #466BAF;/*按钮的背景颜色为蓝色*/ 
+	width: 180px;/*按钮的宽度*/
+	height: 30px;/*登录和注册按钮的高度*/ 
+	font-size: 18px;/*登录和注册按钮的字体大小*/ 
+	border: 0px;/*无边框*/ 
+	padding: 0px;/*无内边距*/ 
+	margin:0px;
+	cursor: pointer;/*登录和注册按钮的选择时为手形状*/
+}
+.button input[type="submit"]:hover 
+{ 
+	background-color: white;/*按钮选中后背景颜色为白色*/ 
+	color: #466BAF;/*按钮选中后字体颜色为蓝色*/ 
+	border: 1px solid #466BAF;/*按钮选中后边框颜色为蓝色*/
+}
+.top
+{
+	margin:0px 0px 10px 0px;
+    padding-left: 0;
+    padding-right: 0;
+    height:100px; 
+}
+.top .log
+{
+	position:absolute;
+	top:20px;
+	text-align:center;
+	height:60px;
+	width:280px;
+}
+
+.navigation
+{
+	text-align:center;
+	margin:0px 0px 10px 0px;
+	background:#bf856f;
+	height:60px;
+	float:none;
+}
+.navigation table{}
+.navigation table tr
+{
+	height:60px;
+}
+.navigation table tr td
+{
+	width:100px;	
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	color:#000000;
+
+}
+.main
+{
+	margin:0px 0px 10px 0px;
+}
+.main .list
+{
+	min-height:400px;
+	margin:0 auto;
+	float:left;
+	padding:10px 10px 10px 10px;
+	width:180px;
+}
+.main .list table
+{
+	text-align: left;
+	border-collapse: collapse; 
+	background:#f6f4f0;
+}
+.main .list tr
+{
+	height:40px;
+}
+.main .list td
+{
+	width:180px;
+}
+.main .list table tr td 
+{ 
+	border:1px solid #fff; 
+}
+
+.main .info
+{
+	background-color:#ffffc8;
+	min-height:500px;
+	padding:20px 20px 20px 20px;
+	margin-left:200px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.main .info .group 
+{
+	text-align: left;
+	width: 262px; 
+	margin: 20px auto;
+}
+.main .info .group label
+{
+	margin-left:-50px;
+	line-height: 30px; 
+	font-size: 18px;
+}
+.main .info .group input[type="text"]
+{
+	margin-left:-50px;
+	display: block;/*设置为块,是为了让输入框独占一行*/ 
+	width: 360px;
+	height: 30px; 
+	border: 1px solid #ddd;
+	padding: 0px 0px 0px 10px;
+	font-size: 16px;
+}
+.main .info .group input[type="submit"]
+{
+	margin-left:-100px;
+}
+.footer{
+	background-color:#fff;
+	height:60px;
+	position:absolute;
+	right:0px;
+	left:0px;
+	border:1px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #69635E;
+} 
+.footer a {
+	color: #474440;
+}
+ 
